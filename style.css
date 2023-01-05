@@ -1,0 +1,360 @@
+nav {
+  width: 100%;
+position: sticky;
+top: 0px;
+}
+
+
+
+nav ul{
+    background-color: rgb(255, 255, 0);
+    text-align: center;
+color:rgb(255, 255, 255);
+padding: 25px;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a{
+    text-transform: uppercase;
+    font-size: 25px;
+    text-decoration: none;
+    padding: 15px;
+    color: rgb(153, 153, 129);
+}
+nav ul li a:hover{
+
+color:rgb(255, 254, 254);
+
+}
+
+.logo {
+    width: 85px;
+    float: left;
+    margin-top: -18px;
+}
+
+.txtfuter{
+    text-align: center;
+    font-size: 22px;
+    color: white;
+    background-color: black;
+    padding: -4px;
+}
+
+.heroi{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    padding: 40px;
+    background-image:url(./cryptocurrency.bg1.jpg);
+    background-position: left center, right top ;
+    background-size: 100%,cover;
+    background-repeat: no-repeat,repeat;
+}
+
+.css-3d-text {
+  font-size: 65px;
+  color: #00a4db;
+  font-family: "Arial Black", Gadget, sans-serif;
+  text-shadow: 0px 0px 0 rgb(-167,-3,52),
+               -1px 0px 0 rgb(-198,-34,21),
+               -2px 0px 0 rgb(-228,-64,0),
+               -3px 0px 0 rgb(-259,-95,0),
+               -4px 0px 0 rgb(-289,-125,0),
+               -5px 0px 0 rgb(-320,-156,0),
+               -6px 0px 0 rgb(-350,-186,0),
+               -7px 0px  0 rgb(-380,-216,0),
+               -8px 0px 7px rgba(255,255,255,0.51),
+               -8px 0px 1px rgba(255,255,255,0.5),
+               0px 0px 7px rgba(255,255,255,.2);
+}
+.border-radius {
+	border-radius: 50px;
+	background-color: #e1e434;
+	color: #fff;
+	line-height: 33px;
+	text-align: center;
+	width: 500px;
+	height: 33px;
+right: 50px;
+}
+
+
+.rotate {
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+    display: inline-block;
+    font-size: 44px;
+    font-family: Arial,Helvetica,sans-serif;
+    margin-left: -104px;
+    margin-top:32px;
+}
+.sfondi{
+    background-image: url(./beeeeeeee.jpg);
+    background-size: cover;
+}
+
+.typewriter h1 {
+    color: rgb(0, 0, 0);
+    font-family: monospace;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 3.5s steps(30, end),
+      blink-caret .5s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange }
+  }
+
+  .wrap {
+    overflow: hidden;
+    margin: 10px;
+  }
+  .box {
+    float: left;
+    position: relative;
+    width: 20%;
+    padding-bottom: 20%;
+  }
+  .boxInner {
+    position: absolute;
+    left: 10px;
+    right: 10px;
+    top: 10px;
+    bottom: 10px;
+    overflow: hidden;
+  }
+  .boxInner img {
+    width: 100%;
+  }
+  .boxInner .titleBox {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-bottom: -50px;
+    background: #fff;
+    background: rgba(0, 0, 0, 0.5);
+    color: #FFF;
+    padding: 10px;
+    text-align: center;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+  }
+  section.no-touch .boxInner:hover .titleBox, section.touch .boxInner.touchFocus .titleBox {
+    margin-bottom: 0;
+  }
+  @media only screen and (max-width : 480px) {
+    /* Smartphone view: 1 tile */
+    .box {
+      width: 100%;
+      padding-bottom: 100%;
+    }
+  }
+  @media only screen and (max-width : 650px) and (min-width : 481px) {
+    /* Tablet view: 2 tiles */
+    .box {
+      width: 50%;
+      padding-bottom: 50%;
+    }
+  }
+  @media only screen and (max-width : 1050px) and (min-width : 651px) {
+    /* Small desktop / ipad view: 3 tiles */
+    .box {
+      width: 33.3%;
+      padding-bottom: 33.3%;
+    }
+  }
+  @media only screen and (max-width : 1290px) and (min-width : 1051px) {
+    /* Medium desktop: 4 tiles */
+    .box {
+      width: 25%;
+      padding-bottom: 25%;
+    }
+  }
+  input[type=text], textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  input[type=email] {
+    background-color: #ffffff;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+   
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+::-webkit-scrollbar-track {
+  background: rgb(255, 144, 9);
+  border-radius: 50px;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(255,255,0);
+ border-radius: 50px;
+}
+.showcase {
+  width: 100%;
+  height: 24vh;
+  position: relative;
+}
+.showcase video {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0 ;
+  left: 0;
+  object-fit: cover;
+}
+.title {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  font-size: 50px;
+  color: #fff;
+  mix-blend-mode: multiply                                                                                               ;
+}
+@media (prefers-color-scheme: dark){
+  body {/* just style */
+    background: #000;
+    color: #fff;
+  }
+}
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #000000;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #000000;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #ffffff;
+  background-color: #286f89;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #000000;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+.btn {
+  background: #a1bbcc;
+  background-image: -webkit-linear-gradient(top, #a1bbcc, #000000);
+  background-image: -moz-linear-gradient(top, #a1bbcc, #000000);
+  background-image: -ms-linear-gradient(top, #a1bbcc, #000000);
+  background-image: -o-linear-gradient(top, #a1bbcc, #000000);
+  background-image: linear-gradient(to bottom, #a1bbcc, #000000);
+  -webkit-border-radius: 11;
+  -moz-border-radius: 11;
+  border-radius: 11px;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 4px 13px 6px 8px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #4d4d4d;
+  background-image: -webkit-linear-gradient(top, #4d4d4d, #000000);
+  background-image: -moz-linear-gradient(top, #4d4d4d, #000000);
+  background-image: -ms-linear-gradient(top, #4d4d4d, #000000);
+  background-image: -o-linear-gradient(top, #4d4d4d, #000000);
+  background-image: linear-gradient(to bottom, #4d4d4d, #000000);
+  text-decoration: none;
+}
