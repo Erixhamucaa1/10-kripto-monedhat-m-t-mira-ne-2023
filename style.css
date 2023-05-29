@@ -4,8 +4,6 @@ position: sticky;
 top: 0px;
 }
 
-
-
 nav ul{
     background-color: rgb(255, 255, 0);
     text-align: center;
@@ -25,9 +23,7 @@ nav ul li a{
     color: rgb(153, 153, 129);
 }
 nav ul li a:hover{
-
 color:rgb(255, 254, 254);
-
 }
 
 .logo {
@@ -81,7 +77,6 @@ color:rgb(255, 254, 254);
 	height: 33px;
 right: 50px;
 }
-
 
 .rotate {
     -webkit-transform: rotate(90deg);
